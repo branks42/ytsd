@@ -36,7 +36,7 @@ class Downloader():
 
         except:
             # Prints error message if video cannot be found at given url
-            print("Could not find video at url '{}'".format(self.url))
+            print("Could not find  album at url '{}'".format(self.url))
 
     def __progress_check(self, stream=None, chunk=None, file_handle=None, remaining=None):
         # Calculates and displays percentage of file that has been downloaded. 
